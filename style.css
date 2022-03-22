@@ -1,0 +1,38 @@
+#mc-embedded-subscribe-form {
+    background-color: #11b0ba;
+}
+.field1{
+    position: relative;
+    left:42px ;
+}
+.field2{
+    position: relative;
+    left:44px ;
+}
+.field3{
+    position: relative;
+    left:13px ;
+}
+.field4{
+    position: relative;
+    left:26px;
+    width:188px;
+    height:22px;
+}
+.field5{
+    position: relative;
+    left:100px ;
+}
+.field6{
+    position: relative;
+    left:120px ;
+}
+.mc-field-group {
+}
+.button {
+    position: relative;
+    left: 140px;
+}
+.tarea {
+    font-size:larger;  
+}
