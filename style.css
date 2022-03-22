@@ -59,7 +59,8 @@ nav ul li:hover .sub-menu-1
 
 nav ul li:hover .sub-menu-1 ul
 { 
-
+    display: block;
+    margin: 5px;
 }
 
 
