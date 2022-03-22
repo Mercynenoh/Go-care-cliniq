@@ -32,6 +32,7 @@
 .button {
     position: relative;
     left: 140px;
+    padding-bottom: 6px;
 }
 .tarea {
     font-size:larger;  
