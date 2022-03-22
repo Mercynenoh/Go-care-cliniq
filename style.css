@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
@@ -29,11 +30,22 @@ h5{
 }
 #motto{
    color: red;
-   text-align: center;
+
 }
-#middle{
-font-size: 30px;
+.logo {
+    position: relative;
+  color: #fff;
+  width: 150px;
+  float:left;
+  margin-top:16px;
+  padding-left: 30px;
 }
+
+.title{
+    padding-bottom: 50px;
+    font-weight: 700;
+}
+
 #pulse{
     width: 100%;
 }
@@ -49,5 +61,77 @@ color: black;
     margin-right: auto;
  }
  .bottom{
-     padding-top: 100px;
+     padding-top: 60px;
  }
+ 
+*
+/* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body
+{
+    background-color: #11B0BA ;
+}
+/*styling of the navbar*/
+nav
+{
+    text-align: center;
+}
+
+nav ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #000;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center
+}
+
+nav ul li
+{ 
+    width:120px;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav ul li:hover
+{
+    background-color: orange;
+    border-radius: 3px;
+}
+nav ul li a
+{ 
+    text-decoration: none;
+    color: #000;
+}
+  
+.sub-menu-1
+{
+   display: none;
+}
+
+nav ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background-color: orange;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+nav ul li:hover .sub-menu-1 ul
+{ 
+    display: block;
+    margin: 5px;
+}
+
+
+
+
+
+
+
