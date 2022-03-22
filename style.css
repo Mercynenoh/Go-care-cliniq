@@ -13,6 +13,8 @@ body
 nav
 {
     text-align: center;
+    min-height:10vh;    
+    
 }
 
 nav ul
