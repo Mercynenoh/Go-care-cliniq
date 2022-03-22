@@ -43,6 +43,27 @@ nav ul li a
     color: #000;
 }
   
+.sub-menu-1
+{
+   display: none;
+}
+
+nav ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background-color: orange;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+nav ul li:hover .sub-menu-1 ul
+{ 
+    display: block;
+    margin: 5px;
+}
+
+
 
 
 
