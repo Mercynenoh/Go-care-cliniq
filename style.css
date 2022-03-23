@@ -1,3 +1,4 @@
+
 /*NEWS AND MEDIA SECTION*/
 *
 {
@@ -63,6 +64,68 @@
 
 
 
+
+
+
+
+.Appointment {
+    background-color: #11b0ba;
+    padding-top: 20px;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-bottom: 30px;
+}
+.tarea {
+    font-family: 'Are You Serious';
+    font-size:2.3vw;
+} 
+#appointment {
+    padding:8px;
+}
+
+
+#text{
+    text-align: center;
+    padding-bottom: 150px;
+    
+}
+#deal{
+    text-align: center;
+    padding-top: 0px;
+    
+    
+}
+#asset{
+    color: black;
+    text-align: center;
+}
+#note{
+    float: right;
+    padding-bottom: 0px
+    
+    ;
+}
+
+/* / Beginning of services section */
+.container-fluid{
+    padding: 0;
+}
+.Our Service{
+    background-color: #11B0BA;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: #11B0BA;
+}    
+
+
+#menu{
+    padding-right: 12%;
+    padding-left: 12%;
+    text-align: center;
+}
 
 
 

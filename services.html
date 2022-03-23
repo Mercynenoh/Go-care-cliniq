@@ -1,37 +1,127 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>service page</title>
+
+    <link rel="icon" type="image/jpg" href="images/icon.png"></link>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mdb.min.css">
+    <link rel="stylesheet" href="mdb.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Open+Sans:wght@300&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <link href=https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style css">
+    <script src="jQuerry.js"></script>
+    <script src="mdb.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <title>Hospital service</title>
+    
 </head>
 <body>
-    <nav class="nav-bar" id="nav-bar">
-        <ul> 
-            <li><a href="index.html" class="nav-link">HOME</a></li>
-            <li><a href="about.html" class="nav-link">ABOUT</a></li>
-            <li><a href="services.html" class="nav-link">SERVICES</a>
-                <div class="sub-menu-1">
-                    <ul>
-                        <li><a href="#"></a>OBSTETRICS & GYNACOLOGY</li>
-                        <li><a href="#"></a>PSYCHIATRY</li>
-                        <li><a href="#"></a>INTERNAL MEDICINE</li>
-                        <li><a href="#"></a>LAB</li>
-                        <li><a href="#"></a>SURGERY</li>
-                        <li><a href="#"></a>PAEDIATRICS</li>
-                        <li><a href="#"></a>INPATIENT & OUTPATIENT</li>
-                    </ul>
+    
+
+    <br>
+    <hr width="30%" color="#11B0BA" border-color="#11B0BA">
+    <div id="menu">
+    
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+            <h3><b>Our Services</b></h3>
+        
+            <ol class="carousel-indicators">
+                <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                <li data-target="#multi-item-example" data-slide-to="1"></li>
+                
+            </ol>
+        
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+
+                <!--First slide-->
+                <div class="carousel-item active">
+
+                    <div class="col-md-4">
+                        <div class="card md-2" id="card0">
+                            <img src="c1.jpg" class="card-img-top" alt="bbqbeef" style="height: 16rem;">
+                            <div class="card-body" style="height: 11rem;">
+                                <h5 class="card-title">Free Check Up</h5>
+                                <li><a href="#">Learn More</a></li>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card md-2" id="card1">
+                            <img src="a1.jpg" class="card-img-top" alt="bbqc" style="height: 16rem;">
+                            <div class="card-body" style="height: 11rem;">
+                                <h5 class="card-title">24/7 Ambulence</h5>
+                                <li><a href="#">Learn More</a></li>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card md-2" id="card1">
+                            <img src="e1.jpg" class="card-img-top" alt="bbqc" style="height: 16rem;">
+                            <div class="card-body" style="height: 11rem;">
+                                <h5 class="card-title">Expert Consultancy</h5>
+                                <li><a href="#">Learn More</a></li>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
-            </li>
-            <li><a href="appointment.html" class="nav-link">BOOK APPOINTMENT</a></li>
-            <li><a href="news.html" class="nav-link">NEWS</a></li>
-            <li><a href="contact.html" class="nav-link">CONTACT</a></li>
-        </ul>    
-     </nav>    
+                <!--/.First slide-->
 
-    <script src="scripts.js"></script>
+                <!--Second slide-->
+                <div class="carousel-item">
+
+                    <div class="col-md-4">
+                        <div class="card md-2" id="card1">
+                            <img src="m1.jpg" class="card-img-top" alt="bbqc" style="height: 16rem;">
+                            <div class="card-body" style="height: 11rem;">
+                                <h5 class="card-title">Medicine</h5>
+                                <li><a href="#">Learn More</a></li>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card md-2" id="card1">
+                            <img src="b1.jpeg" class="card-img-top" alt="bbqc" style="height: 16rem;">
+                            <div class="card-body" style="height: 11rem;">
+                                <h5 class="card-title">Bed Facilities</h5>
+                                <li><a href="#">Learn More</a></li>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card md-2" id="card1">
+                            <img src="h1.jpg" class="card-img-top" alt="bbqc" style="height: 16rem;">
+                            <div class="card-body" style="height: 11rem;">
+                                <h5 class="card-title">Home Care</h5>
+                                <li><a href="#">Learn More</a></li>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.Second slide-->
+
+
+            </div>
+            <!--/.Slides-->
+
+        </div>
+        <!--/.Carousel Wrapper-->
+    </div>
+    <br>
 </body>
 </html>
