@@ -138,10 +138,7 @@ body{
  background:linear-gradient(to right ,#11B0BA,#f1f1f1);
    
 }
-.tarea {
-    font-family: 'Are You Serious';
-    font-size:2.3vw;
-} 
+
 #appointment {
    justify-content: center;
    
@@ -361,7 +358,16 @@ color: black;
      display: inline;
  }
  
-
+ .news{
+     padding-top: 20px;
+ }
+ @media only screen and (max-width: 450px) {
+  #media {
+     display: none;
+     height: 100vh;
+    }
+   
+    
 
 
 
