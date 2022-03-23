@@ -1,4 +1,73 @@
 
+/*NEWS AND MEDIA SECTION*/
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/*body
+{
+    background-color: #11B0BA ;
+}*/
+
+#a1
+{
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.a2
+{ 
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 30px;
+    justify-content: center;
+}
+
+#a3
+{ 
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.images-container
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly 10px;
+    margin-top: 5vh;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+
+.images-container img
+{ 
+    margin-left:15px;
+    margin-right: 15px;
+    justify-content: center;
+}
+
+.a4
+{
+    text-align: center;
+    margin-top:3vh;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
 .Appointment {
     background-color: #11b0ba;
     padding-top: 20px;
@@ -13,7 +82,7 @@
 #appointment {
     padding:8px;
 }
-=======
+
 
 #text{
     text-align: center;
@@ -57,5 +126,6 @@
     padding-left: 12%;
     text-align: center;
 }
+
 
 
