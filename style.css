@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
@@ -70,11 +71,16 @@ body{
 .container{
     color: black;
 }
+.service{
+    background-color: white;
+    color: black;
+    font-weight: 400;
+}
 .footer{
     width: 100%;
    
-   
 }
+
 .top{
     padding-top: 70px;
 }
@@ -236,4 +242,26 @@ body
   } */
 
 
+
+
+/* / Beginning of services section */
+/* .container-fluid{
+    padding: 0;
+} */
+/* .Our Service{
+    background-color: #11B0BA;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: #11B0BA;
+}     */
+
+
+/* #menu{
+    padding-right: 12%;
+    padding-left: 12%;
+    text-align: center;
+} */
 
