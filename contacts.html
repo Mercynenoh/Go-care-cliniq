@@ -1,12 +1,114 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css" rel="stylesheet"/>
+    <script src="./js/jquery-3.6.0.js"></script>
     <title>Health care</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+ <body>
+     <div id="note">
+         <div class="container-fluid text-white">
+             <div class="bg-image d-flex flex-column justify-content-center align-items-center" style="
+      background-image: url('./assets/backgrounds/c_image.jpg');
+      height: 70vh;
+    ">
+    <div>
+        <h3 id="asset">CONTACT US</h3>
+        <form action="https://formspree.io/f/xwkyqdjz" method="post" id="lost">
+            <div class="row p-1">
+                <div class="col-lg-12">
+                    <input type="text" class="form-control bg-transparent text-black" id="pwd"placeholder="Name" name="text">
+                    <label class="form-label " for="pwd"></label>
+                </div>
+                <div class="col-lg-12">
+                    <input type="email" class="form-control bg-transparent text-black" id="floatingInput"placeholder="Email" name="email">
+                    <label class="form-label" for="email"></label>
+                </div>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control bg-transparent text-black p-1"name="text" placeholder="Your message here.."id="floatingTextarea2" style="height:150px"></textarea>
+                <label for="comment"></label>
+            </div>
+            <div class="form-check mb-3">
+                <button id="impact" type="submit" class="btn btn-info">Submit</button>
+            </div>
+        </form>
+        <p id="output"></p>
+       </div>
+    </div>
+</div>
+</div>
+
+<footer class="bg-light text-center  fixed-bottom text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Go-care cliniq.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
 <body>
     <nav class="nav-bar" id="nav-bar">
         <ul> 
@@ -19,6 +121,8 @@
         </ul>    
      </nav>    
 
+
     <script src="scripts.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
 </body>
 </html>
