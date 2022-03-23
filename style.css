@@ -195,6 +195,7 @@ h5{
   padding-left: 30px;
 }
 
+
 .title{
     padding-bottom: 50px;
     font-weight: 700;
@@ -223,69 +224,16 @@ color: black;
 body
 {
     background-color: #11B0BA ;
-
-/*styling of the navbar*/
-
-#nav:{
-    text-align: center;
-    min-height:10vh;    
-    
 }
 
-nav ul
-{
-    display: inline-flex;
-    list-style: none;
-    color: #000;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center
-}
-
-nav ul li
-{ 
-    width:120px;
-    margin: 10px;
-    padding: 10px;
-}
-
-nav ul li:hover
-{
-    background-color: orange;
-    border-radius: 3px;
-}
-nav ul li a
-{ 
-    text-decoration: none;
-    color: #000;
-}
-  
-.sub-menu-1
-{
-   display: none;
-}
-
-nav ul li:hover .sub-menu-1
-{
-    display: block;
-    position: absolute;
-    background-color: orange;
-    margin-top: 15px;
-    margin-left: -15px;
-}
-
-nav ul li:hover .sub-menu-1 ul
-{ 
-    display: block;
-    margin: 5px;
-}
-
-
-
-
-
-
-
+/* @media only screen and (max-width: 600px) {
+   .title{
+      font-weight: 400;
+    }
+    .why{
+        padding-top: 100px;
+    }
+  } */
 
 
 
