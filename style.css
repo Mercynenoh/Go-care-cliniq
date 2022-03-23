@@ -1,3 +1,4 @@
+
 #text{
     text-align: center;
     padding-bottom: 150px;
@@ -19,3 +20,25 @@
     
     ;
 }
+
+/* / Beginning of services section */
+.container-fluid{
+    padding: 0;
+}
+.Our Service{
+    background-color: #11B0BA;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: #11B0BA;
+}    
+
+
+#menu{
+    padding-right: 12%;
+    padding-left: 12%;
+    text-align: center;
+}
+
