@@ -57,6 +57,32 @@ body{
     box-sizing: border-box;
     overflow-x: hidden;
     margin: 0;
+}
+#text{
+    text-align: center;
+    padding-bottom: 150px;
+    
+}
+#deal{
+    text-align: center;
+    padding-top: 0px;
+    
+    
+}
+#asset{
+    color: black;
+    text-align: center;
+}
+#note{
+    float: right;
+    padding-bottom: 0px
+    
+    ;
+}
+
+/* / Beginning of services section */
+.container-fluid{
+
     padding: 0;
    
 
@@ -224,6 +250,22 @@ color: black;
  .bottom{
      padding-top: 40px;
  }
+ .address{
+     padding-top: 200px;
+     padding-left: 50px;
+ }
+ .icon{
+     font-size: 30px;
+ }
+ .social-icon{
+     color: black;
+ }
+ .social-icon:hover{
+     color: red;
+ }
+ .footer{
+     display: inline;
+ }
  
 *
 
@@ -232,14 +274,17 @@ body
     background-color: #11B0BA ;
 }
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
    .title{
       font-weight: 400;
-    }
+    } 
     .why{
-        padding-top: 100px;
+        padding-top: 200px;
     }
-  } */
+    #one{
+        padding-left: 1px;
+    }
+  
 
 
 
@@ -263,5 +308,9 @@ body
     padding-right: 12%;
     padding-left: 12%;
     text-align: center;
+<<<<<<< HEAD
 } */
+
+
+}
 
