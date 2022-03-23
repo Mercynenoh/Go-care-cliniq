@@ -7,6 +7,7 @@
     text-align: center;
     padding-top: 0px;
     
+    
 }
 #asset{
     color: black;
@@ -14,4 +15,7 @@
 }
 #note{
     float: right;
+    padding-bottom: 0px
+    
+    ;
 }
