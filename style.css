@@ -1,0 +1,17 @@
+#text{
+    text-align: center;
+    padding-bottom: 150px;
+    
+}
+#deal{
+    text-align: center;
+    padding-top: 0px;
+    
+}
+#asset{
+    color: black;
+    text-align: center;
+}
+#note{
+    float: right;
+}

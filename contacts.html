@@ -1,15 +1,74 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css" rel="stylesheet"/>
+    <script src="./js/jquery-3.6.0.js"></script>
     <title>Health care</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1> Group project</h1>
+ <body>
+     <div id="note">
+         <div class="container-fluid text-white">
+             <div class="bg-image d-flex flex-column justify-content-center align-items-center" style="
+      background-image: url('./assets/backgrounds/c_image.jpg');
+      height: 70vh;
+    ">
+    <div>
+        <h3 id="asset">CONTACT US</h3>
+        <form action="https://formspree.io/f/xwkyqdjz" method="post" id="lost">
+            <div class="row p-1">
+                <div class="col-lg-12">
+                    <input type="text" class="form-control bg-transparent text-black" id="pwd"placeholder="Name" name="text">
+                    <label class="form-label " for="pwd"></label>
+                </div>
+                <div class="col-lg-12">
+                    <input type="email" class="form-control bg-transparent text-black" id="floatingInput"placeholder="Email" name="email">
+                    <label class="form-label" for="email"></label>
+                </div>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control bg-transparent text-black p-1"name="text" placeholder="Your message here.."id="floatingTextarea2" style="height:150px"></textarea>
+                <label for="comment"></label>
+            </div>
+            <div class="form-check mb-3">
+                <button id="impact" type="submit" class="btn btn-info">Submit</button>
+            </div>
+        </form>
+        <p id="output"></p>
+       </div>
+    </div>
+</div>
+<div class="container p-4 "id="text"> 
+    <section class="mb-4 bottom">
+        <a class="btn btn-outline-primary btn-floating m-1 " href="https://www.facebook.com/" target="_blank" role="button"><i class="fab fa-facebook-f social" ></i></a> 
+        <a class="btn btn-outline-primary btn-floating m-1" href="" role="button"
+        ><i class="fab fa-twitter social"></i
+      ></a> 
+      <a class="btn btn-outline-primary btn-floating m-1" href="http://www.google.com/" role="button"
+        ><i class="fab fa-google social"></i
+      ></a>
+       <a class="btn btn-outline-primary btn-floating m-1" href="https://www.instagram.com/" role="button"
+        ><i class="fab fa-instagram social"></i
+      ></a> 
+      <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in social"></i
+      ></a>
+    </section>
+</div>
+<footer class="page-footer font-small blue" id="deal">
+    <div class="deal">
+        <p><strong>Go Care Cliniq © 2022 Copyright: All Rights Reserved</strong></p>
+    </div>
+</footer> 
+</div>
 
     <script src="scripts.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
 </body>
 </html>
