@@ -10596,4 +10596,4 @@ if ( !noGlobal ) {
 
 return jQuery;
 } );
-}
+

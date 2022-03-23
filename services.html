@@ -10,19 +10,84 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="style.css">
+
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+     />
+  <!-- Google Fonts -->
+      <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+      />
+  <!-- MDB -->
+      <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
+    rel="stylesheet"
+      />
+      <script src="scripts.js"></script>
+    <script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
+></script>
+
     <link rel="stylesheet" href="mdb.min.css">
     <link rel="stylesheet" href="mdb.css">
     <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Open+Sans:wght@300&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
     <link href=https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style css">
-    <script src="jQuerry.js"></script>
-    <script src="mdb.min.js"></script>
-    <script src="bootstrap.min.js"></script>
-    <script src="script.js"></script>
+   
     <title>Hospital service</title>
     
+
 </head>
+<body>
+    
+    <div class="container-fluid" id="serve">
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ms-auto">
+        <div class="container-fluid">
+         
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="appointment.html">Book Appointment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">News & Media</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Contact</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    
 <body>
     
 
@@ -31,7 +96,7 @@
     <div id="menu">
     
         <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-            <h3><b>Our Services</b></h3>
+            <h3 class="head"><b>Our Services</b></h3>
         
             <ol class="carousel-indicators">
                 <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
@@ -48,30 +113,30 @@
 
                     <div class="col-md-4">
                         <div class="card md-2" id="card0">
-                            <img src="c1.jpg" class="card-img-top" alt="bbqbeef" style="height: 16rem;">
+                            <img src="./img/checkup.jpeg" class="card-img-top" alt="bbqbeef" style="height: 16rem;">
                             <div class="card-body" style="height: 11rem;">
                                 <h5 class="card-title">Free Check Up</h5>
-                                <li><a href="#">Learn More</a></li>
+                                <li><a href="#checkup">Learn More</a></li>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="card md-2" id="card1">
-                            <img src="a1.jpg" class="card-img-top" alt="bbqc" style="height: 16rem;">
+                            <img src="./img/ambulance.jpg" class="card-img-top" alt="bbqc" style="height: 16rem;">
                             <div class="card-body" style="height: 11rem;">
-                                <h5 class="card-title">24/7 Ambulence</h5>
-                                <li><a href="#">Learn More</a></li>
+                                <h5 class="card-title">24/7 Ambulance</h5>
+                                <li><a href="#ambulance">Learn More</a></li>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="card md-2" id="card1">
-                            <img src="e1.jpg" class="card-img-top" alt="bbqc" style="height: 16rem;">
+                            <img src="./img/consult.jpeg" class="card-img-top" alt="bbqc" style="height: 16rem;">
                             <div class="card-body" style="height: 11rem;">
                                 <h5 class="card-title">Expert Consultancy</h5>
-                                <li><a href="#">Learn More</a></li>
+                                <li><a href="#consult">Learn More</a></li>
                             </div>
                         </div>
                     </div>
@@ -82,32 +147,23 @@
                 <!--Second slide-->
                 <div class="carousel-item">
 
-                    <div class="col-md-4">
-                        <div class="card md-2" id="card1">
-                            <img src="m1.jpg" class="card-img-top" alt="bbqc" style="height: 16rem;">
-                            <div class="card-body" style="height: 11rem;">
-                                <h5 class="card-title">Medicine</h5>
-                                <li><a href="#">Learn More</a></li>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col-md-4">
                         <div class="card md-2" id="card1">
-                            <img src="b1.jpeg" class="card-img-top" alt="bbqc" style="height: 16rem;">
+                            <img src="./img/bed.jpeg" class="card-img-top" alt="bbqc" style="height: 16rem;">
                             <div class="card-body" style="height: 11rem;">
                                 <h5 class="card-title">Bed Facilities</h5>
-                                <li><a href="#">Learn More</a></li>
+                                <li><a href="#bed">Learn More</a></li>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="card md-2" id="card1">
-                            <img src="h1.jpg" class="card-img-top" alt="bbqc" style="height: 16rem;">
+                            <img src="./img/homecare.jpeg" class="card-img-top" alt="bbqc" style="height: 16rem;">
                             <div class="card-body" style="height: 11rem;">
                                 <h5 class="card-title">Home Care</h5>
-                                <li><a href="#">Learn More</a></li>
+                                <li><a href="#homecare">Learn More</a></li>
                             </div>
                         </div>
                     </div>
@@ -122,6 +178,113 @@
         </div>
         <!--/.Carousel Wrapper-->
     </div>
-    <br>
+
+    <div>
+        <div class="container-fluid service">
+            <h1 id="checkup" class="head">FREE CHECKUP AVAILABLE!</h1>
+            <p>
+             Regular check-ups can help find potential health issues before they become a problem. When you see your doctor regularly, they are able to detect health conditions or diseases early. Early detection gives you the best chance for getting the right treatment quickly, avoiding any complications. By getting the correct health services, screenings, and treatment you are taking important steps toward living a longer, healthier life.
+            </p>
+            <h3>Some of the free check-ups we offer include:</h3>
+            <ul>
+                <li>&#9745;Height / weight check</li>
+                <li>&#9745;Blood pressure check</li>
+                <li>&#9745; Cholesterol level check</li>
+                <li>&#9745; Blood sugar test</li>
+                <li>&#9745;Throat check</li>
+                <li>&#9745;Electrocardiogram</li>
+                <li>&#9745;Chest x-ray</li>
+            </ul>
+
+           <h1 id="ambulance" class="head"> 24 HOUR AMBULANCE SERVICE</h1>
+           <p>We take pride in our ambulance fleet and we offer Advanced Life Support and Basic Life Support ambulances based on corporate contracts and for general clientele. We are operational 24/7 including public holidays and we work in association with other ambulance service providers within and outside Nairobi to ensure prompt and high quality service delivery.</p>
+           <p>The vehicles are fully equipped with the following;
+
+            Emergency medicines,
+            
+            State of the art emergency equipment such as cardiac monitors, ventilators, defibrillators, suctions equipment among others.
+            
+            All ready to save lives before patients arrive at the hospital. The institution’s critical care ambulances have also been fitted with full patient life support during transportation from the site to the hospital.
+            
+            In addition to the above evacuation services, the hospital also facilitates and makes arrangements for air ambulance. Patients’ lives come first and to ensure they are well taken care of during evacuation, there is always a team of highly trained staff comprising of emergency medical technicians, emergency nurses and doctors.</p>
+            
+            <h1 id="consult" class="head">EXPERT CONSULTANCY</h1>
+           <p> These are specialised clinics with an experienced dedicated team of consultants and nurses. Patients​ are seen on appointment basis, Monday to Friday, 8.00am to 5.00pm, to allow adequate time for each patient with the consultant. ​</p>
+          
+        <br><br><br> 
+            <h1 id="homecare" class="head">HOME CARE SERVICE</h1>
+            <p>Home care can be the key to achieving the highest quality of life possible. It can enable safety, security, and increased independence; it can ease management of an ongoing medical condition; it can help avoid unnecessary hospitalization; it can aid with recovery after an illness, injury, or hospital stay—all through care given in the comfort and familiarity of home. Home care can include:
+                Help with daily activities such as dressing and bathing
+                Assistance with safely managing tasks around the house
+                Companionship
+                Therapy and rehabilitative services
+                Short- or long-term nursing care for an illness, disease, or disability—including tracheostomy and ventilator care
+                </p>
+               <h5 class="text-dark"> Home Health Care services may include:
+            </h5>
+            <ul>
+                <li>Short-term nursing services</li>
+                <li> Physical therapy</li>
+                <li>Occupational therapy</li>
+                <li>Speech language pathology​</li>
+                <li>Medical social work</li>
+                <li>
+                    Home health aide services​</li>
+                
+            </ul>
+            <h1 id="bed" class="head">BED FACILITY</h1>
+            <p>Our hospital provides comprehensive care for unstable and critically ill patients in urgent need of advanced monitoring and intensive care treatment. These services are carried out in precision and coordination of a team of expert doctors. We have a bed  capacity of  1,000  inclusive of  ICU and isolation rooms with 24 hour doctor coverage.  Each of the beds in the ICU and isolation rooms have a state of the art technology that enables staff to  monitor patient’s vital signs continually.
+            </p>
+              
+    </div>
+</div>
+</div>
+
+<footer class="bg-info text-center  text-white">
+      
+      
+    <div class="container p-4 pb-0">
+
+      <section class="mb-4 last">
+    
+       <!-- Facebook -->
+       <a class="btn btn-outline-light btn-floating m-1 " href="https://www.facebook.com/" target="_blank" role="button"
+       ><i class="fab fa-facebook-f social" ></i
+     ></a> 
+
+     <!-- Twitter -->
+     <a class="btn btn-outline-light btn-floating m-1" href="" role="button"
+       ><i class="fab fa-twitter social"></i
+     ></a> 
+
+     <!-- Google -->
+     <a class="btn btn-outline-light btn-floating m-1" href="http://www.google.com/" role="button"
+       ><i class="fab fa-google social"></i
+     ></a>
+
+     <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
+       ><i class="fab fa-instagram social"></i
+     ></a> 
+
+     <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+       ><i class="fab fa-linkedin-in social"></i
+     ></a>
+    
+      </section>
+      
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="">Go-care cliniq.com</a>
+    </div>
+  </footer>
+
+   
+    <script src="./jQuery.js"></script>
+    <script src="./mdb.min.css"></script>
+    <script src="./bootstrap.min.js"></script>
+    <script src="./scripts.js"></script>
 </body>
 </html>
