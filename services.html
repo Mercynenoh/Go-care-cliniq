@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -96,7 +96,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
     <div id="menu">
     
         <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-            <h3 class="head"><b>Our Services</b></h3>
+            <h3 class="head text-center"><b>OUR SERVICES</b></h3>
         
             <ol class="carousel-indicators">
                 <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
@@ -115,7 +115,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
                         <div class="card md-2" id="card0">
                             <img src="./img/checkup.jpeg" class="card-img-top" alt="bbqbeef" style="height: 16rem;">
                             <div class="card-body" style="height: 11rem;">
-                                <h5 class="card-title">Free Check Up</h5>
+                                <h5 class="card-title" id="check">Free Check Up</h5>
                                 <li><a href="#checkup">Learn More</a></li>
                             </div>
                         </div>
@@ -167,6 +167,15 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4">
+                      <div class="card md-2" id="card1">
+                          <img src="./img/consult.jpeg" class="card-img-top" alt="bbqc" style="height: 16rem;">
+                          <div class="card-body" style="height: 11rem;">
+                              <h5 class="card-title">Medical</h5>
+                              <li><a href="#homecare">Learn More</a></li>
+                          </div>
+                      </div>
+                  </div>
 
                 </div>
                 <!--/.Second slide-->
@@ -181,7 +190,9 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
 
     <div>
         <div class="container-fluid service">
-            <h1 id="checkup" class="head">FREE CHECKUP AVAILABLE!</h1>
+            
+              <h1  class="head" id="free">FREE CHECKUP AVAILABLE!</h1>
+              <div id="checkup">
             <p>
              Regular check-ups can help find potential health issues before they become a problem. When you see your doctor regularly, they are able to detect health conditions or diseases early. Early detection gives you the best chance for getting the right treatment quickly, avoiding any complications. By getting the correct health services, screenings, and treatment you are taking important steps toward living a longer, healthier life.
             </p>
@@ -195,6 +206,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
                 <li>&#9745;Electrocardiogram</li>
                 <li>&#9745;Chest x-ray</li>
             </ul>
+            </div>
 
            <h1 id="ambulance" class="head"> 24 HOUR AMBULANCE SERVICE</h1>
            <p>We take pride in our ambulance fleet and we offer Advanced Life Support and Basic Life Support ambulances based on corporate contracts and for general clientele. We are operational 24/7 including public holidays and we work in association with other ambulance service providers within and outside Nairobi to ensure prompt and high quality service delivery.</p>

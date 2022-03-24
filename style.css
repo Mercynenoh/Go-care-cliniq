@@ -361,6 +361,8 @@ color: black;
  .news{
      padding-top: 20px;
  }
+
+
  @media only screen and (max-width: 450px) {
   #media {
      display: none;
@@ -384,3 +386,4 @@ color: black;
 
 
 
+ 

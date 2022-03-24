@@ -1,7 +1,11 @@
-$(document).ready(function() {
+$(document).ready(function(){
     $("button").click(function() {
 
         $("#d")[0].reset()
+    });
+    $("#free").click(function() {
+
+        $("#check").toggle()
     });
 
 });
